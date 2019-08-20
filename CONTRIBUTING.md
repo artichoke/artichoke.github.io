@@ -23,7 +23,7 @@ If you'd like to engage in a discussion outside of GitHub, you can
 ## Setup
 
 The Artichoke Site includes Rust, Ruby, Shell, and Text sources. Developing on
-the Artichoke Playground requires configuring several dependencies, which are
+the Artichoke Site requires configuring several dependencies, which are
 orchestrated by [Yarn](https://yarnpkg.com/).
 
 ### Rust Toolchain
@@ -226,7 +226,7 @@ If after running `yarn upgrade` there are still outdated packages reported by
 `yarn outdated`, there has likely been a major release of a dependency. If you
 would like to update the dependency and deal with any breakage, please do;
 otherwise, please
-[file an issue](https://github.com/artichoke/playground/issues/new).
+[file an issue](https://github.com/artichoke/artichoke.github.io/issues/new).
 
 ## Code Analysis
 
