@@ -264,13 +264,7 @@ tags
 
 # ignore all targets, not just the root (sub-crates in workspace and webpack)
 target/
+# Artichoke is an application
+!Cargo.lock
 # there is no Ruby doc to ignore
 !doc
-
-
-#Added by cargo
-#
-#already existing elements are commented out
-
-/target
-#**/*.rs.bk
