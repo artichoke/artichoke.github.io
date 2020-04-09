@@ -39,8 +39,5 @@
       "node": true
     }
   },
-  "scripts": {
-    "lint": "./scripts/lint.sh",
-    "loc": "loc --exclude vendor"
-  }
+  "scripts": {}
 }
