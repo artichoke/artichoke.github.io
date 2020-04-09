@@ -31,12 +31,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@artichoke/logo": "git://github.com/artichoke/logo#master",
-    "clang-format": "^1.2.4",
-    "gh-pages": "^2.1.1",
-    "package-json-validator": "^0.6.3",
-    "path": "^0.12.7",
-    "pkg-dir-cli": "^2.1.0"
+    "@artichoke/logo": "git://github.com/artichoke/logo#master"
   },
   "eslintConfig": {
     "env": {
