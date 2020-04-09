@@ -1,8 +1,8 @@
 {
-  "name": "artichoke-site",
+  "name": "@artichoke/site",
   "version": "0.1.0",
   "private": true,
-  "description": "Artichoke Site",
+  "description": "Artichoke project website",
   "keywords": [
     "programming language",
     "scripting",
@@ -13,22 +13,11 @@
   "homepage": "https://www.artichoke-ruby.org",
   "bugs": "https://github.com/artichoke/artichoke.github.io/issues",
   "license": "MIT",
-  "author": {
-    "name": "Ryan Lopopolo",
-    "email": "rjl@hyperbo.la",
-    "url": "https://hyperbo.la"
-  },
+  "author": "Ryan Lopopolo <rjl@hyperbo.la> (https://hyperbo.la/)",
   "contributors": [
-    {
-      "name": "Ryan Lopopolo",
-      "email": "rjl@hyperbo.la",
-      "url": "https://hyperbo.la"
-    }
+    "Ryan Lopopolo <rjl@hyperbo.la> (https://hyperbo.la/)"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/artichoke/artichoke.github.io.git"
-  },
+  "repository": "github:artichoke/artichoke.github.io",
   "dependencies": {},
   "devDependencies": {},
   "eslintConfig": {
@@ -39,5 +28,8 @@
       "node": true
     }
   },
-  "scripts": {}
+  "scripts": {
+    "fmt": "npx prettier --write '**/*'",
+    "fmt:md": "npx prettier --prose-wrap always --write '**/*.md' '*.md'"
+  }
 }
