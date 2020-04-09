@@ -30,9 +30,7 @@
     "url": "https://github.com/artichoke/artichoke.github.io.git"
   },
   "dependencies": {},
-  "devDependencies": {
-    "@artichoke/logo": "git://github.com/artichoke/logo#master"
-  },
+  "devDependencies": {},
   "eslintConfig": {
     "env": {
       "browser": true,

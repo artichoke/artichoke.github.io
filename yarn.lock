@@ -2,6 +2,3 @@
 # yarn lockfile v1
 
 
-"@artichoke/logo@git://github.com/artichoke/logo#master":
-  version "0.1.0"
-  resolved "git://github.com/artichoke/logo#d57afcfd59301c1f2f211f1375e981d0d81c3181"
