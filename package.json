@@ -31,18 +31,11 @@
   },
   "devDependencies": {
     "@artichoke/logo": "git://github.com/artichoke/logo#master",
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.5.5",
     "clang-format": "^1.2.4",
     "gh-pages": "^2.1.1",
     "package-json-validator": "^0.6.3",
     "path": "^0.12.7",
     "pkg-dir-cli": "^2.1.0"
-  },
-  "babel": {
-    "presets": [
-      "@babel/preset-env"
-    ]
   },
   "eslintConfig": {
     "env": {
