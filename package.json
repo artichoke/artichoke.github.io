@@ -29,6 +29,7 @@
     "type": "git",
     "url": "https://github.com/artichoke/artichoke.github.io.git"
   },
+  "dependencies": {},
   "devDependencies": {
     "@artichoke/logo": "git://github.com/artichoke/logo#master",
     "clang-format": "^1.2.4",
@@ -48,11 +49,5 @@
   "scripts": {
     "lint": "./scripts/lint.sh",
     "loc": "loc --exclude vendor"
-  },
-  "dependencies": {
-    "ace-builds": "^1.4.5",
-    "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1",
-    "popper.js": "^1.15.0"
   }
 }
