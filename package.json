@@ -1,6 +1,6 @@
 {
   "name": "@artichoke/artichoke.github.io",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "Artichoke project website",
   "keywords": [
@@ -10,7 +10,7 @@
     "rust",
     "wasm"
   ],
-  "homepage": "https://www.artichoke-ruby.org",
+  "homepage": "https://www.artichokeruby.org",
   "bugs": "https://github.com/artichoke/artichoke.github.io/issues",
   "license": "MIT",
   "author": "Ryan Lopopolo <rjl@hyperbo.la> (https://hyperbo.la/)",
