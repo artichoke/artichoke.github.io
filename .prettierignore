@@ -2,13 +2,16 @@
 
 !**/*/
 
+dist/
 node_modules/
 target/
 
+!*.css
 !*.html
 !*.js
 !*.json
 !*.md
+!*.scss
 !*.yaml
 !*.yml
 

@@ -1,0 +1,41 @@
+// Favicons
+import "@artichokeruby/logo/favicons/browserconfig.xml";
+import "@artichokeruby/logo/favicons/favicon-32x32.png";
+import "@artichokeruby/logo/favicons/favicon-128x128.png";
+import "@artichokeruby/logo/favicons/favicon-152x152.png";
+import "@artichokeruby/logo/favicons/favicon-167x167.png";
+import "@artichokeruby/logo/favicons/favicon-180x180.png";
+import "@artichokeruby/logo/favicons/favicon-192x192.png";
+import "@artichokeruby/logo/favicons/favicon-196x196.png";
+import "@artichokeruby/logo/favicons/favicon-512x512.png";
+import "@artichokeruby/logo/favicons/mstile-150x150.png";
+import "@artichokeruby/logo/favicons/safari-pinned-tab.svg";
+import "@artichokeruby/logo/favicons/site.webmanifest";
+
+// Logos
+import "@artichokeruby/logo/optimized/artichoke-logo-inverted.png";
+import "@artichokeruby/logo/optimized/artichoke-logo-inverted.svg";
+import "@artichokeruby/logo/optimized/artichoke-logo.png";
+import "@artichokeruby/logo/optimized/artichoke-logo.svg";
+import "@artichokeruby/logo/optimized/artichoke-social-logo.png";
+import "@artichokeruby/logo/optimized/artichoke-social-logo.svg";
+import "@artichokeruby/logo/optimized/artichoke-social-profile.png";
+import "@artichokeruby/logo/optimized/artichoke-social-profile.svg";
+import "@artichokeruby/logo/optimized/mark-black.svg";
+import "@artichokeruby/logo/optimized/mark-color.svg";
+import "@artichokeruby/logo/optimized/mark-green.svg";
+import "@artichokeruby/logo/optimized/mark-white.svg";
+import "@artichokeruby/logo/optimized/nav-black.svg";
+import "@artichokeruby/logo/optimized/nav-color.svg";
+import "@artichokeruby/logo/optimized/nav-green.svg";
+import "@artichokeruby/logo/optimized/nav-white.svg";
+import "@artichokeruby/logo/optimized/playground-social-logo.png";
+import "@artichokeruby/logo/optimized/playground.png";
+import "@artichokeruby/logo/optimized/wordmark-black.svg";
+import "@artichokeruby/logo/optimized/wordmark-color.svg";
+import "@artichokeruby/logo/optimized/wordmark-green.svg";
+import "@artichokeruby/logo/optimized/wordmark-white.svg";
+
+// Static assets
+import "./assets/index.html";
+import "./assets/robots.txt";
