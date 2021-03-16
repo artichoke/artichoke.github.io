@@ -20,7 +20,7 @@
   "repository": "github:artichoke/artichoke.github.io",
   "dependencies": {},
   "devDependencies": {
-    "@artichokeruby/logo": "^0.9.2",
+    "@artichokeruby/logo": "^0.10.0",
     "webpack": "^5.26.0",
     "webpack-cli": "^4.5.0"
   },
