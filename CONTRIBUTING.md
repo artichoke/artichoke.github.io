@@ -62,6 +62,7 @@ available tasks by running:
 ```console
 $ bundle exec rake --tasks
 rake build                        # Build Webpack bundle
+rake bundle:audit                 # Checks the Gemfile.lock for insecure dependencies
 rake fmt                          # Format sources
 rake fmt:text                     # Format text, YAML, and Markdown sources with prettier
 rake format                       # Format sources
