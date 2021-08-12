@@ -18,9 +18,10 @@
     "Ryan Lopopolo <rjl@hyperbo.la> (https://hyperbo.la/)"
   ],
   "repository": "github:artichoke/artichoke.github.io",
-  "dependencies": {},
+  "dependencies": {
+    "@artichokeruby/logo": "^0.10.0"
+  },
   "devDependencies": {
-    "@artichokeruby/logo": "^0.10.0",
     "webpack": "^5.47.1",
     "webpack-cli": "^4.7.2"
   },
