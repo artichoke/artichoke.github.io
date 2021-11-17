@@ -22,8 +22,7 @@
     "@artichokeruby/logo": "^0.10.0"
   },
   "devDependencies": {
-    "webpack": "^5.61.0",
-    "webpack-cli": "^4.9.1"
+    "webpack": "^5.64.1"
   },
   "eslintConfig": {
     "env": {
@@ -33,12 +32,12 @@
       "node": true
     },
     "parserOptions": {
-      "ecmaVersion": 8,
+      "ecmaVersion": 2018,
       "sourceType": "module"
     }
   },
   "scripts": {
-    "build": "webpack --mode production",
+    "build": "node bin/webpack-build.js",
     "fmt": "npx prettier --write \"**/*\"",
     "lint": "npx eslint .",
     "lint:fix": "npx eslint --fix ."
