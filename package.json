@@ -32,12 +32,12 @@
       "node": true
     },
     "parserOptions": {
-      "ecmaVersion": 8,
+      "ecmaVersion": 2018,
       "sourceType": "module"
     }
   },
   "scripts": {
-    "build": "webpack --mode production",
+    "build": "node bin/webpack-build.js",
     "fmt": "npx prettier --write \"**/*\"",
     "lint": "npx eslint .",
     "lint:fix": "npx eslint --fix ."
