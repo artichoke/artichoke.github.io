@@ -15,7 +15,7 @@ namespace :lint do
 
   desc 'Lint JavaScript sources with eslint'
   task :eslint do
-    sh 'npx eslint --fix .'
+    sh 'npm run lint:fix'
   end
 end
 
