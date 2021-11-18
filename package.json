@@ -21,9 +21,6 @@
   "dependencies": {
     "@artichokeruby/logo": "^0.10.0"
   },
-  "devDependencies": {
-    "webpack": "^5.64.1"
-  },
   "eslintConfig": {
     "env": {
       "browser": true,
