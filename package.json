@@ -37,7 +37,8 @@
     }
   },
   "scripts": {
-    "build": "node bin/webpack-build.js",
+    "build": "node build.js",
+    "clean": "rm -rf dist",
     "fmt": "npx prettier --write \"**/*\"",
     "lint": "npx eslint .",
     "lint:fix": "npx eslint --fix ."

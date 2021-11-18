@@ -20,7 +20,7 @@ jobs:
       - name: Install toolchain
         run: npm ci
 
-      - name: Webpack build
+      - name: Build Webapp
         run: npm run build
 
       - name: Deploy
