@@ -39,7 +39,7 @@ namespace :fmt do
   end
 end
 
-desc 'Build Webpack bundle'
+desc 'Build bundle'
 task :build do
   sh 'npm run build'
 end
