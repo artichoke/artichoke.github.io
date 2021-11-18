@@ -61,7 +61,7 @@ available tasks by running:
 
 ```console
 $ bundle exec rake --tasks
-rake build                        # Build Webpack bundle
+rake build                        # Build bundle
 rake bundle:audit:check           # Checks the Gemfile.lock for insecure dependencies
 rake bundle:audit:update          # Updates the bundler-audit vulnerability database
 rake fmt                          # Format sources
@@ -85,7 +85,7 @@ $ bundle exec rake lint:rubocop
 
 ## Building
 
-Building the static site can be done with webpack:
+Building the static site can be done with an npm run-task:
 
 ```shell
 npm run build

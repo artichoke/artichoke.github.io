@@ -15,7 +15,7 @@ namespace :lint do
 
   desc 'Lint JavaScript sources with eslint'
   task :eslint do
-    sh 'npx eslint --fix .'
+    sh 'npm run lint:fix'
   end
 end
 
@@ -39,7 +39,7 @@ namespace :fmt do
   end
 end
 
-desc 'Build Webpack bundle'
+desc 'Build bundle'
 task :build do
   sh 'npm run build'
 end
