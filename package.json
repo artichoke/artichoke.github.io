@@ -29,15 +29,15 @@
       "node": true
     },
     "parserOptions": {
-      "ecmaVersion": 2018,
+      "ecmaVersion": 2020,
       "sourceType": "module"
     }
   },
   "scripts": {
-    "build": "node build.js",
+    "build": "node build.mjs",
     "clean": "rm -rf dist",
     "fmt": "npx prettier --write \"**/*\"",
-    "lint": "npx eslint .",
-    "lint:fix": "npx eslint --fix ."
+    "lint": "npx eslint . --ext .js,.jsx,.mjs,.ts,.tsx",
+    "lint:fix": "npx eslint --fix . --ext .js,.jsx,.mjs,.ts,.tsx"
   }
 }
