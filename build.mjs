@@ -1,5 +1,11 @@
-const fs = require("fs").promises;
-const path = require("path");
+/* eslint-disable no-console */
+
+import fs from "node:fs/promises";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+// eslint-disable-next-line no-shadow
+const __dirname = fileURLToPath(new URL(".", import.meta.url));
 
 const assets = Object.freeze([
   "src/robots.txt",
@@ -58,8 +64,8 @@ const build = async () => {
 (async function main() {
   try {
     await build();
-  } catch (err) {
-    console.error(err);
+  } catch (error) {
+    console.error(error);
     process.exit(1);
   }
 })();
