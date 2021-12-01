@@ -19,7 +19,7 @@
   ],
   "repository": "github:artichoke/artichoke.github.io",
   "dependencies": {
-    "@artichokeruby/logo": "^0.10.0"
+    "@artichokeruby/logo": "^0.11.0"
   },
   "eslintConfig": {
     "env": {
