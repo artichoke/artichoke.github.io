@@ -53,8 +53,9 @@ npm install
 
 ### Ruby
 
-artichoke.github.io requires a recent Ruby 2.x and [bundler] 2.x. The
-[`.ruby-version`](.ruby-version) file in this repository specifies Ruby 2.6.6.
+artichoke.github.io requires a recent Ruby and [bundler] for development tasks.
+The [`.ruby-version`](.ruby-version) file in this repository specifies the
+preferred Ruby toolchain.
 
 artichoke.github.io uses [`rake`](Rakefile) as a task runner. You can see the
 available tasks by running:
