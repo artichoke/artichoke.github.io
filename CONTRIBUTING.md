@@ -99,7 +99,7 @@ rake format:text                  # Format text, YAML, and Markdown sources with
 rake lint                         # Lint sources
 rake lint:eslint                  # Lint JavaScript sources with eslint
 rake lint:rubocop                 # Run RuboCop
-rake lint:rubocop:auto_correct    # Auto-correct RuboCop offenses
+rake lint:rubocop:autocorrect     # Auto-correct RuboCop offenses
 rake release:markdown_link_check  # Check for broken links in markdown files
 ```
 
