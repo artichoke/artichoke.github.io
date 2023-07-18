@@ -57,7 +57,7 @@ const build = async () => {
     assets.map(async (asset) => {
       const file = path.basename(asset);
       await fs.copyFile(asset, path.join(__dirname, "dist", file));
-    })
+    }),
   );
 };
 
