@@ -69,6 +69,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3.5.3
 
+      - name: Install toolchain
+        run: npm ci
+
       - name: Lint and check formatting with prettier
         run: npx prettier --check '**/*'
 
