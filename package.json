@@ -36,8 +36,11 @@
   "scripts": {
     "build": "node build.mjs",
     "clean": "rm -rf dist",
-    "fmt": "npx prettier --write \"**/*\"",
+    "fmt": "prettier --write \"**/*\"",
     "lint": "npx eslint . --ext .js,.jsx,.mjs,.ts,.tsx",
     "lint:fix": "npx eslint --fix . --ext .js,.jsx,.mjs,.ts,.tsx"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0"
   }
 }
