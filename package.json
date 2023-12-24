@@ -41,6 +41,7 @@
   "scripts": {
     "build": "node build.mjs",
     "clean": "rimraf dist",
+    "copy:assets": "rimraf \"public/!(*.txt|site.webmanifest)\" && node copy-assets.mjs",
     "fmt": "prettier --write \"**/*\"",
     "lint": "eslint . --ext .js,.jsx,.mjs,.ts,.tsx",
     "lint:fix": "eslint --fix . --ext .js,.jsx,.mjs,.ts,.tsx",
