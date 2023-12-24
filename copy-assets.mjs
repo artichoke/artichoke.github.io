@@ -2,20 +2,8 @@
 
 import fs from "node:fs/promises";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
-
-// eslint-disable-next-line no-shadow
-const __dirname = fileURLToPath(new URL(".", import.meta.url));
 
 const assets = Object.freeze([
-  "src/robots.txt",
-  "src/index.html",
-  "node_modules/@artichokeruby/logo/img/artichoke-logo.png",
-  "node_modules/@artichokeruby/logo/img/artichoke-logo.svg",
-  "node_modules/@artichokeruby/logo/img/artichoke-logo-inverted.png",
-  "node_modules/@artichokeruby/logo/img/artichoke-logo-inverted.svg",
-  "node_modules/@artichokeruby/logo/img/playground.png",
-  "node_modules/@artichokeruby/logo/img/playground-social-logo.png",
   "node_modules/@artichokeruby/logo/favicons/favicon-32x32.png",
   "node_modules/@artichokeruby/logo/favicons/favicon-128x128.png",
   "node_modules/@artichokeruby/logo/favicons/favicon-192x192.png",
@@ -24,12 +12,14 @@ const assets = Object.freeze([
   "node_modules/@artichokeruby/logo/favicons/favicon-180x180.png",
   "node_modules/@artichokeruby/logo/favicons/safari-pinned-tab.svg",
   "node_modules/@artichokeruby/logo/favicons/mstile-150x150.png",
-  "node_modules/@artichokeruby/logo/favicons/browserconfig.xml",
-  "node_modules/@artichokeruby/logo/favicons/site.webmanifest",
-  "node_modules/@artichokeruby/logo/optimized/artichoke-logo-inverted.png",
-  "node_modules/@artichokeruby/logo/optimized/artichoke-logo-inverted.svg",
   "node_modules/@artichokeruby/logo/optimized/artichoke-logo.png",
   "node_modules/@artichokeruby/logo/optimized/artichoke-logo.svg",
+  "node_modules/@artichokeruby/logo/optimized/artichoke-logo-inverted.png",
+  "node_modules/@artichokeruby/logo/optimized/artichoke-logo-inverted.svg",
+  "node_modules/@artichokeruby/logo/optimized/artichoke-playground-safari-revision-4938-dark-mode.png",
+  "node_modules/@artichokeruby/logo/optimized/artichoke-playground-safari-revision-4938-light-mode.png",
+  "node_modules/@artichokeruby/logo/optimized/artichoke-playground-social-safari-revision-4938-dark-mode.png",
+  "node_modules/@artichokeruby/logo/optimized/artichoke-playground-social-safari-revision-4938-light-mode.png",
   "node_modules/@artichokeruby/logo/optimized/artichoke-social-logo.png",
   "node_modules/@artichokeruby/logo/optimized/artichoke-social-logo.svg",
   "node_modules/@artichokeruby/logo/optimized/artichoke-social-profile.png",
@@ -42,21 +32,28 @@ const assets = Object.freeze([
   "node_modules/@artichokeruby/logo/optimized/nav-color.svg",
   "node_modules/@artichokeruby/logo/optimized/nav-green.svg",
   "node_modules/@artichokeruby/logo/optimized/nav-white.svg",
-  "node_modules/@artichokeruby/logo/optimized/playground-social-logo.png",
   "node_modules/@artichokeruby/logo/optimized/playground.png",
+  "node_modules/@artichokeruby/logo/optimized/playground-social-logo.png",
   "node_modules/@artichokeruby/logo/optimized/wordmark-black.svg",
   "node_modules/@artichokeruby/logo/optimized/wordmark-color.svg",
   "node_modules/@artichokeruby/logo/optimized/wordmark-green.svg",
   "node_modules/@artichokeruby/logo/optimized/wordmark-white.svg",
+  "node_modules/@artichokeruby/logo/social/twitter-logo-black.svg",
+  "node_modules/@artichokeruby/logo/social/github-logo.svg",
+  "node_modules/@artichokeruby/logo/social/discord-logo.svg",
 ]);
 
 const build = async () => {
-  await fs.mkdir("dist", { recursive: true });
+  await fs.mkdir("public/social", { recursive: true });
 
   await Promise.all(
     assets.map(async (asset) => {
       const file = path.basename(asset);
-      await fs.copyFile(asset, path.join(__dirname, "dist", file));
+      if (asset.includes("/social/")) {
+        await fs.copyFile(asset, path.join("public", "social", file));
+      } else {
+        await fs.copyFile(asset, path.join("public", file));
+      }
     }),
   );
 };
