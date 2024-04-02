@@ -27,7 +27,7 @@
     "eslint": "8.57.0",
     "prettier": "^3.2.5",
     "rimraf": "^3.0.2",
-    "vite": "^5.1.4"
+    "vite": "^5.2.7"
   },
   "eslintConfig": {
     "env": {
