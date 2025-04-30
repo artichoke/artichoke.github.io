@@ -27,7 +27,7 @@
     "eslint": "9.25.1",
     "prettier": "3.5.3",
     "rimraf": "^6.0.1",
-    "vite": "^6.3.2"
+    "vite": "^6.3.4"
   },
   "scripts": {
     "dev": "vite dev",
