@@ -23,11 +23,11 @@
     "@artichokeruby/logo": "^0.12.0"
   },
   "devDependencies": {
-    "@eslint/js": "9.29.0",
-    "eslint": "9.29.0",
-    "prettier": "3.5.3",
+    "@eslint/js": "9.30.0",
+    "eslint": "9.30.0",
+    "prettier": "3.6.2",
     "rimraf": "^6.0.1",
-    "vite": "^6.3.5"
+    "vite": "^7.0.0"
   },
   "scripts": {
     "dev": "vite dev",
