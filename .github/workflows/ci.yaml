@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5.0.0
+        with:
+          persist-credentials: false
 
       - name: Install Node.js toolchain
         uses: actions/setup-node@v5.0.0
@@ -34,6 +36,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5.0.0
+        with:
+          persist-credentials: false
 
       - name: Setup Node.js runtime
         uses: actions/setup-node@v5.0.0
@@ -52,6 +56,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5.0.0
+        with:
+          persist-credentials: false
 
       - name: Setup Node.js runtime
         uses: actions/setup-node@v5.0.0
